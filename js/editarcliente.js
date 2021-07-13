@@ -5,6 +5,7 @@
     const formulario = document.querySelector('#formulario');
    
     const nombreInput = document.querySelector('#nombre');
+     const btn = document.querySelector('#btn');
     const emailInput = document.querySelector('#email');
     const empresaInput = document.querySelector('#empresa');
     const telefonoInput = document.querySelector('#telefono');
@@ -29,6 +30,7 @@
             setTimeout( () => {
                 obtenerCliente(idCliente);
             }, 100);
+               btn.value="Editar Cliente";
            }
            else{
               
